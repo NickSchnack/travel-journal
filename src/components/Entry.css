@@ -1,0 +1,57 @@
+.journal-entry {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    padding: 30px 30px 0 30px;
+}
+
+.destination-image-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.destination-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.destination-info-container {
+    padding: 20px;
+}
+
+.marker {
+    width: 15px;
+}
+
+.destination-country {
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-left: 2px;
+}
+
+.map-link {
+    font-size: .7rem;
+    text-decoration: underline;
+    color: gray;
+    margin-left: 10px;
+}
+
+.destination-name {
+    margin: 5px 0 15px 0;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.travel-dates {
+    font-weight: bold;
+    font-size: .7rem;
+}
+
+.description {
+    font-weight: 400;
+    font-size: .7rem;
+    max-width: 350px;
+}
